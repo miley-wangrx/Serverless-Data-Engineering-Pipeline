@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "SpeechTaggingStack2022"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-96rdbu632or9"
+s3_prefix = "SpeechTaggingStack2022"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=449712553441.dkr.ecr.us-east-1.amazonaws.com/speechtaggingstack2022bd9dc1be/helloworldfunction19d43fc4repo"]
